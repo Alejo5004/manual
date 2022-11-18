@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="./index.html">Manual</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../#celulares">Celulares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../#portatiles">Portatiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Tablets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mb-5">
+        <nav class="pt-5" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="../#tablets">Tablets</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Herramientas</li>
+            </ol>
+        </nav>
+
+        <section class="py-5 pt-3 animate__animated animate__rubberBand">
+            <h1 class="text-center">Principales daños de una tablet</h1>
+        </section>
+
+        <section class="row py-md-5 py-3 animate__animated animate__backInUp">
+            <div class="mb-3">
+                <h2>Pantalla:</h2>
+                <p>
+                    Se produce en caídas en donde la pantalla quede agrietada o con rayones. Se debe sustituir por una nueva.
+                </p>
+            </div>
+            <div class="mb-3">
+                <h2>Batería:</h2>
+                <p>
+                    Se genera al dañarse las sendas de la batería o por un mal cargador. Es necesario cambiarla por una nueva.
+                </p>
+            </div>
+            <div class="mb-3">
+                <h2>Red telefónica:</h2>
+                <p>
+                    Puede producirse por:
+                    <ul>
+                        <li><b>Corte de la línea:</b> La solución es contactar con su proveedor de la red.</li>
+                        <li><b>Problemas con el CHIP de la tarjeta SIM:</b> La solución es contactar con su proveedor de la red.</li>
+                        <li><b>Caída momentánea de la red:</b> La solución es esperar al restablecimiento de la red.</li>
+                        <li><b>Problemas del dispositivo:</b> En caso de este es necesario sustituir el componente de las antenas.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="mb-3">
+                <h2>Software:</h2>
+                <p>
+                    Puede producirse por:
+                    <ul>
+                        <li>
+                            <b>Aplicaciones dejan de funcionar:</b> La siguiente lista menciona soluciones que de no funcionar la primera se continua con la siguiente:
+                            <ul>
+                                <li>Revisar el espacio de almacenamiento</li>
+                                <li>Eliminar memoria cache</li>
+                                <li>Reinstalar aplicación</li>
+                                <li>Instalar la aplicación en una versión anterior</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Rendimiento del dispositivo:</b> Soluciones para mejorar el rendimiento:
+                            <ul>
+                                <li>Limpiar el cache de las aplicaciones que está en la sección de configuración.</li>
+                                <li>Eliminando aplicaciones o archivos en desuso, de debe hacer en presencia del cliente para saber si en verdad se pueden eliminar.</li>
+                                <li>Restablecer de fabrica (Fimware). Este proceso restablece el dispositivo a como estaba de fábrica, es necesario que el dispositivo este en mínimo 25% de carga y se debe hacer una copia de seguridad.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>No arranca el dispositivo:</b> Se debe realizar un Bootloader o fastboot que restablece el dispositivo a como estaba de fábrica.
+                        </li>
+                        <li><b>Control del Volumen, Cámara, Puerto de carga, huella digital:</b> Es necesario sustituir el elemento dañado por uno que funcione.</li>
+                    </ul>
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white py-5">
+        <div class="container">
+            <div class="d-flex justify-content-end">
+                <span>
+                    Desarrollado por
+                    <a href="https://github.com/Alejo5004" class="text-white" target="_blank">
+                        <i class="fa-brands fa-github"></i> @Alejo5004
+                    </a>
+                </span>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
